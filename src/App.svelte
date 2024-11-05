@@ -2,9 +2,8 @@
   import Header from "./lib/Header.svelte";
   import Contador from "./lib/Contador.svelte";
     import ModoVisual from "./lib/ModoVisual.svelte";
-    import LineAdicional from "./lib/componentes/LineaAdicional.svelte";
-  import Boton from "./lib/boton.svelte";
-
+    import VentanaModal from "./lib/VentanaModal.svelte";
+    import LineAdicional from "./lib/LineaAdicional.svelte";
   let colores = ["blue", "red", "green", "orange"];
 </script>
 
@@ -14,6 +13,7 @@
   {:else}
     <Header {color} titulo={color} tam="2" />
   {/if}
+
 {/each}
 
 <Header titulo="Header1" />
@@ -21,7 +21,7 @@
 
 <Contador />
 <ModoVisual />
+<VentanaModal />
 <LineAdicional />
-<Boton />
 <style>
 </style>
