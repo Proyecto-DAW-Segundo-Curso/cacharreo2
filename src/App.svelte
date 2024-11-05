@@ -1,9 +1,10 @@
 <script>
   import Header from "./lib/Header.svelte";
   import Contador from "./lib/Contador.svelte";
-    import ModoVisual from "./lib/ModoVisual.svelte";
-    import LineAdicional from "./lib/componentes/LineaAdicional.svelte";
+  import ModoVisual from "./lib/ModoVisual.svelte";
+  import LineAdicional from "./lib/LineaAdicional.svelte";
   import Boton from "./lib/boton.svelte";
+    import Darkmode from "./lib/Darkmode.svelte";
 
   let colores = ["blue", "red", "green", "orange"];
 </script>
@@ -23,5 +24,6 @@
 <ModoVisual />
 <LineAdicional />
 <Boton />
+<Darkmode/>
 <style>
 </style>
