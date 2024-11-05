@@ -3,7 +3,7 @@
   import Contador from "./lib/Contador.svelte";
     import ModoVisual from "./lib/ModoVisual.svelte";
     import VentanaModal from "./lib/VentanaModal.svelte";
-
+    import LineAdicional from "./lib/componentes/LineaAdicional.svelte";
   let colores = ["blue", "red", "green", "orange"];
 </script>
 
@@ -22,5 +22,6 @@
 <Contador />
 <ModoVisual />
 <VentanaModal />
+<LineAdicional />
 <style>
 </style>
