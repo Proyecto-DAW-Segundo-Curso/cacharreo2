@@ -4,7 +4,11 @@
   import ModoVisual from "./lib/ModoVisual.svelte";
   import LineAdicional from "./lib/LineaAdicional.svelte";
   import Boton from "./lib/boton.svelte";
-    import Darkmode from "./lib/Darkmode.svelte";
+  import Darkmode from "./lib/Darkmode.svelte";
+ 
+ 
+
+
 
   let colores = ["blue", "red", "green", "orange"];
 </script>
@@ -15,6 +19,7 @@
   {:else}
     <Header {color} titulo={color} tam="2" />
   {/if}
+
 {/each}
 
 <Header titulo="Header1" />
@@ -22,8 +27,11 @@
 
 <Contador />
 <ModoVisual />
-<LineAdicional />
 <Boton />
+
 <Darkmode/>
+
+<LineAdicional />
+
 <style>
 </style>
